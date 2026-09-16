@@ -1,0 +1,12 @@
+auth:
+  local:
+    enabled: false
+  openid:
+    enabled: true
+    providers:
+      authentik:
+        name: authentik
+        authurl: ${VIKUNJA_AUTH_URL}
+        logouturl: ${VIKUNJA_AUTH_LOGOUT_URL}
+        clientid: ${VIKUNJA_AUTH_CLIENT_ID}
+        clientsecret: ${VIKUNJA_AUTH_CLIENT_SECRET}

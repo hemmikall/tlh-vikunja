@@ -1,1 +1,1 @@
-# tlh-vikunja
+# vikunja
